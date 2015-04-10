@@ -2,8 +2,6 @@
   background-color: #eaebec;
   color: $section-header-text-color;
   display: table;
-  font-size: 1em;
-  font-weight: bold;
   padding: 10px $horizontal-page-margin;
   width: 100%;
 
@@ -26,7 +24,6 @@
 #titlebar_left,
 #titlebar_right {
   display: table-cell;
-  height: 50px; // acts as minimum height
   vertical-align: middle;
 }
 

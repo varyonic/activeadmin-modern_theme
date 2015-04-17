@@ -107,6 +107,17 @@ $button-primary-border-color: darken($primary-color, 5%) !default;
 
 $cursor-disabled: not-allowed !default; // for forms and buttons
 
+//== Dropdowns
+
+$caret-width-base: 4px !default;
+
+$dropdown-background-color: #fff !default;
+$dropdown-border-color: rgba(0, 0, 0, .15) !default;
+
+$dropdown-link-color: $text-color !default;
+$dropdown-link-hover-color: darken($text-color, 5%) !default;
+$dropdown-link-hover-background-color: #e9e9e9 !default;
+
 //== Tables
 
 $table-cell-padding: 8px !default;

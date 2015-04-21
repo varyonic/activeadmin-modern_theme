@@ -14,7 +14,7 @@ $hover-menu-item-background: lighten($primary-color, 12%) !default; // renamed: 
 $table-stripe-color: #f8f8f8 !default;
 $table-selected-color: #fcf8e3 !default;
 $error-color: #932419 !default;
-$blank-slate-primary-color: #AAA !default;
+$blank-slate-primary-color: #AAA !default;      // renamed: $blank-slate-color
 $breadcrumbs-color: #8a949e !default;           // renamed: $breadcrumb-color
 $breadcrumbs-separator-color: #aab2ba !default; // renamed: $breadcrumb-separator-color
 $required-field-marker-color: #aaa !default;
@@ -51,6 +51,9 @@ $warning-color: $sunflower-color !default;
 $error-color: $alizarin-color !default;
 
 
+$text-color: #3f4c4d !default;
+$text-muted-color: $asbestos-color !default;
+
 
 // NEW VARIABLES
 
@@ -67,8 +70,6 @@ $font-size-base: 13px !default;
 
 $line-height-base: 1.5 !default;
 
-$text-color: #323537 !default;
-
 $body-background-color: #fff !default;
 $body-font-size: $font-size-base !default;
 $body-font-weight: $font-weight-normal !default;
@@ -79,7 +80,6 @@ $header-color: inherit !default;
 
 //== Components
 
-$primary-color: #5E6469 !default;
 $secondary-color: #f0f0f0 !default;
 
 $border-radius-base: 0.25em !default;
@@ -90,6 +90,10 @@ $padding-base-horizontal: 10px !default;
 //== z-indexes
 
 
+
+//== Blank Slate
+
+$blank-slate-color: $text-muted-color !default;
 
 //== Buttons
 
@@ -198,4 +202,4 @@ $date-picker-calendar-link-active-background-color: darken($clouds-color, 10%) !
 //== Typography
 
 $hr-border-color: darken($body-background-color, 15%) !default;
-$blockquote-color: lighten($text-color, 35%) !default;
+$blockquote-color: $text-muted-color !default;

@@ -27,6 +27,7 @@ textarea {
     list-style: none;
     margin: 0;
     padding: 0;
+    position: relative;
   }
 
   .hidden {
@@ -52,11 +53,8 @@ textarea {
   }
 
   .inputs {
-    @include section-background;
-
-    > ol {
-      padding: 15px;
-    }
+    background-color: $panel-background-color;
+    border-radius: $panel-border-radius;
   }
 
   fieldset {
@@ -66,12 +64,12 @@ textarea {
     position: relative; // for abosolute positioning sub fieldset legends for choices/fragments
 
     legend {
+      float: left;
+      font-size: 1rem;
+      font-weight: $font-weight-normal;
+      margin: -15px 0 0 -15px;
+      padding: 15px;
       width: 100%;
-
-      span {
-        display: block;
-        @include section-header;
-      }
     }
 
     .has_many_container {
@@ -83,18 +81,14 @@ textarea {
   }
 
   > fieldset {
-    margin: 0 0 20px 0;
+    padding: 15px;
   }
 
   // relative so the absolutely-positioned handle will fit
   .has_many_fields {
     border-bottom: 1px solid darken($panel-background-color, 12%);
     margin-bottom: 15px;
-
-    ol {
-      padding: 0 15px;
-      position: relative;
-    }
+    padding: 0 15px;
 
     .handle {
       bottom: 0;
@@ -169,7 +163,8 @@ textarea {
     color: $text-muted-color;
   }
 
-  .inline-errors, .errors {
+  .inline-errors,
+  .errors {
     color: $error-color;
     font-weight: $font-weight-bold;
   }

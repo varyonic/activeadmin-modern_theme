@@ -119,6 +119,13 @@ $flash-message-notice-text-color: #416347 !default;
 $flash-message-error-background-color: #f1dcdc !default;
 $flash-message-error-text-color: #b33c33 !default;
 
+//== Title Bar
+
+$title-bar-background-color: #eaebec !default;
+$title-bar-color: $text-color !default;
+
+$title-bar-heading-font-size: 1.9em !default;
+
 //== Date Picker
 
 $date-picker-header-background-color: $primary-color;

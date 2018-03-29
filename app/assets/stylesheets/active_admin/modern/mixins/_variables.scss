@@ -31,6 +31,24 @@ $section-padding: 15px !default;              // renamed: $panel-body-padding
 $text-input-horizontal-padding: 8px !default;
 $text-input-total-padding: $text-input-horizontal-padding * 2 + $border-width * 2 !default;
 $blank-slate-border: 1px dashed #DADADA !default;
+// Flat UI (color swatch section at http://designmodo.github.io/Flat-UI/)
+$alizarin-color: #e74c3c !default;
+$asbestos-color: #7f8c8d !default;
+$belize-hole-color: #2980b9 !default;
+$clouds-color: #ecf0f1 !default;
+$emerald-color: #2ecc71 !default;
+$nephritis-color: #27ae60 !default;
+$silver-color: #bdc3c7 !default;
+$sunflower-color: #f1c40f !default;
+$wet-asphalt-color: #34495e !default;
+
+
+//== Scaffolding
+
+$primary-color: $wet-asphalt-color !default;
+$success-color: $emerald-color !default;
+$warning-color: $sunflower-color !default;
+$error-color: $alizarin-color !default;
 
 
 

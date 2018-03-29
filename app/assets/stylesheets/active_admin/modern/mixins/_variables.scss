@@ -165,14 +165,14 @@ $breadcrumb-separator: "/" !default;
 $flash-message-font-weight: $font-weight-bold !default;
 $flash-message-padding: 12px $horizontal-page-margin !default;
 
-$flash-message-default-background-color: #f7f1d3 !default;
-$flash-message-default-text-color: #cb9810 !default;
+$flash-message-default-background-color: $warning-color !default;
+$flash-message-default-text-color: #fff !default;
 
-$flash-message-notice-background-color: #ccdfcd !default;
-$flash-message-notice-text-color: #416347 !default;
+$flash-message-notice-background-color: $success-color !default;
+$flash-message-notice-text-color: #fff !default;
 
-$flash-message-error-background-color: #f1dcdc !default;
-$flash-message-error-text-color: #b33c33 !default;
+$flash-message-error-background-color: $error-color !default;
+$flash-message-error-text-color: #fff !default;
 
 //== Modals
 

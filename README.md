@@ -1,8 +1,6 @@
 # ActiveAdmin::ModernTheme
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/activeadmin/modern_theme`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+See https://github.com/activeadmin/activeadmin/pull/3862
 
 ## Installation
 
@@ -16,13 +14,14 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install activeadmin-modern_theme
-
 ## Usage
 
-TODO: Write usage instructions here
+active_admin.css.scss should contain:
+
+```
+@import "active_admin/modern/mixins/all";
+@import "active_admin/modern/base";
+```
 
 ## Development
 

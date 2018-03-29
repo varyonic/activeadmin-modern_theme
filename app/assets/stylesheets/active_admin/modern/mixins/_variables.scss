@@ -89,7 +89,8 @@ $padding-base-horizontal: 10px !default;
 
 //== z-indexes
 
-
+$z-index-modal-backdrop: 1001 !default;
+$z-index-modal: 1002 !default;
 
 //== Blank Slate
 
@@ -154,6 +155,15 @@ $flash-message-notice-text-color: #416347 !default;
 
 $flash-message-error-background-color: #f1dcdc !default;
 $flash-message-error-text-color: #b33c33 !default;
+
+//== Modals
+
+$modal-content-padding: 15px !default;
+$modal-heading-padding: 10px 15px !default;
+
+$modal-background-color: #fff !default;
+$modal-backdrop-background-color: rgba(0, 0, 0, 0.5) !default;
+$modal-heading-border-color: #eee !default;
 
 //== Navbar
 

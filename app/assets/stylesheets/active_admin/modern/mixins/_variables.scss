@@ -183,8 +183,8 @@ $date-picker-header-link-color: #fff !default;
 $date-picker-header-link-hover-color: #fff !default;
 
 $date-picker-calendar-background-color: #fff !default;
-$date-picker-calendar-link-hover-background-color: #ECF0F1 !default;
-$date-picker-calendar-link-active-background-color: darken(#ECF0F1, 10%) !default;
+$date-picker-calendar-link-hover-background-color: $clouds-color !default;
+$date-picker-calendar-link-active-background-color: darken($clouds-color, 10%) !default;
 
 //== Typography
 

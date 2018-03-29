@@ -199,6 +199,14 @@ $navbar-link-active-background-color: lighten($primary-color, 8%) !default;
 $navbar-arrow-height: 4px !default;
 $navbar-arrow-width: 8px !default;
 
+//== Panels
+
+$panel-background-color: lighten($clouds-color, 4%) !default;
+$panel-body-padding: 15px !default;
+$panel-heading-background-color: $clouds-color !default;
+$panel-heading-padding: 10px 15px !default;
+$panel-border-radius: $border-radius-base !default;
+
 //== Status Tags
 
 $status-tag-border-radius: $border-radius-base !default;

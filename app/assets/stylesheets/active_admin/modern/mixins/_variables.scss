@@ -7,7 +7,6 @@ $body-background-color: #FFF !default;
 $primary-color: #5E6469 !default;
 $secondary-color: #f0f0f0 !default;
 $text-color: #323537 !default;
-$link-color: #38678b !default;
 $section-header-text-color: $primary-color !default; // renamed: $title-bar-color
 $current-menu-item-background: lighten($primary-color, 12%) !default; // renamed: $navbar-link-active-background-color
 $hover-menu-item-background: lighten($primary-color, 12%) !default; // renamed: $navbar-link-hover-background-color
@@ -54,6 +53,9 @@ $error-color: $alizarin-color !default;
 $text-color: #3f4c4d !default;
 $text-muted-color: $asbestos-color !default;
 
+$link-color: $belize-hole-color !default;
+$link-hover-color: darken($link-color, 5%) !default;
+$link-hover-decoration: underline !default;
 
 // NEW VARIABLES
 

@@ -16,11 +16,12 @@ a.table_tools_button {
   vertical-align: bottom; // required so this aligns correctly with .dropdown_menu
 
   .count {
-    background-color: rgba(0,0,0,0.35);
-    border-radius: 10px;
-    color: #fff;
+    background-color: $badge-background-color;
+    border-radius: $badge-border-radius;
+    color: $badge-color;
     display: inline-block;
-    line-height: 1;
+    font-weight: $badge-font-weight;
+    line-height: $badge-line-height;
     padding: 3px 7px;
     vertical-align: baseline;
   }

@@ -116,10 +116,12 @@ $button-primary-border-color: darken($primary-color, 5%) !default;
 //== Forms
 
 $input-background-color: #fff !default;
-$input-border-color: #c9d0d6 !default;
-$input-border-focus-color: #99a2aa !default;
+$input-border-color: lighten($silver-color, 5%) !default;
+$input-border-focus-color: darken($silver-color, 5%) !default;
 $input-border-radius: $border-radius-base !default;
 $input-color: $text-color !default;
+
+$required-field-marker-color: #aaa !default;
 
 $cursor-disabled: not-allowed !default; // for forms and buttons
 

@@ -1,16 +1,13 @@
 #title_bar {
-  background-color: #eaebec;
-  color: $section-header-text-color;
+  background-color: $title-bar-background-color;
+  color: $title-bar-color;
   display: table;
   padding: 10px $horizontal-page-margin;
   width: 100%;
 
   h2 {
     margin: 0;
-    padding: 0;
-    font-size: 2.2em;
-    line-height: 100%;
-    font-weight: bold;
+    font-size: $title-bar-heading-font-size;
   }
 
   .action_item {

@@ -8,7 +8,7 @@ $primary-color: #5E6469 !default;
 $secondary-color: #f0f0f0 !default;
 $text-color: #323537 !default;
 $link-color: #38678b !default;
-$section-header-text-color: $primary-color !default; // REMOVED
+$section-header-text-color: $primary-color !default; // renamed: $title-bar-color
 $current-menu-item-background: lighten($primary-color, 12%) !default; // renamed: $navbar-link-active-background-color
 $hover-menu-item-background: lighten($primary-color, 12%) !default; // renamed: $navbar-link-hover-background-color
 $table-stripe-color: #f8f8f8 !default;
@@ -171,7 +171,7 @@ $status-tag-yes-background-color: #6090DB !default;
 
 //== Title Bar
 
-$title-bar-background-color: #eaebec !default;
+$title-bar-background-color: lighten($clouds-color, 2%) !default;
 $title-bar-color: $text-color !default;
 
 $title-bar-heading-font-size: 1.9em !default;

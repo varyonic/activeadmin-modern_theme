@@ -53,7 +53,7 @@
       }
 
       &.has_nested:hover > a {
-        z-index: 960; // so top part of sub menu box-shadow doesn't appear over this link
+        z-index: $z-index-navbar; // so top part of sub menu box-shadow doesn't appear over this link
       }
 
       &:hover ul {
@@ -68,7 +68,7 @@
         min-width: 175px;
         padding: 5px 0;
         position: absolute;
-        z-index: 950;
+        z-index: $z-index-navbar;
 
         li {
           a {

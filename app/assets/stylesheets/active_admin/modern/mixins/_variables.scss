@@ -93,6 +93,7 @@ $padding-base-horizontal: 10px !default;
 //== z-indexes
 
 $z-index-dropdown: 1000 !default;
+$z-index-navbar: 1000 !default;
 $z-index-modal-backdrop: 1001 !default;
 $z-index-modal: 1002 !default;
 
@@ -187,13 +188,13 @@ $navbar-padding-horizontal: 10px !default;
 $navbar-padding-vertical: 10px !default;
 
 $navbar-color: #fff !default;
-$navbar-background-color: lighten($primary-color, 5%) !default;
+$navbar-background-color: $primary-color !default;
 
 $navbar-link-color: #fff !default;
 $navbar-link-hover-color: #fff !default;
-$navbar-link-hover-background-color: lighten($primary-color, 12%) !default;
+$navbar-link-hover-background-color: lighten($primary-color, 8%) !default;
 $navbar-link-active-color: #fff !default;
-$navbar-link-active-background-color: lighten($primary-color, 12%) !default;
+$navbar-link-active-background-color: lighten($primary-color, 8%) !default;
 
 $navbar-arrow-height: 4px !default;
 $navbar-arrow-width: 8px !default;

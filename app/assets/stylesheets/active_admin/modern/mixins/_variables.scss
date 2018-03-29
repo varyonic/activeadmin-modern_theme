@@ -215,8 +215,8 @@ $status-tag-border-radius: $border-radius-base !default;
 $status-tag-padding: 0.2em 0.5em !default;
 
 $status-tag-color: #fff !default;
-$status-tag-no-background-color: #777 !default;
-$status-tag-yes-background-color: #6090DB !default;
+$status-tag-no-background-color: $asbestos-color !default;
+$status-tag-yes-background-color: $nephritis-color !default;
 
 //== Tabs
 

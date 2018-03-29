@@ -182,6 +182,16 @@ $status-tag-color: #fff !default;
 $status-tag-no-background-color: #777 !default;
 $status-tag-yes-background-color: #6090DB !default;
 
+//== Tabs
+
+$tabs-border-color: #d3d3d3 !default;
+
+$tabs-link-hover-background-color: #e6e6e6 !default;
+
+$tabs-active-link-hover-background-color: #fff !default;
+$tabs-active-link-hover-border-color: $tabs-border-color !default;
+$tabs-active-link-hover-color: $text-color !default;
+
 //== Title Bar
 
 $title-bar-background-color: lighten($clouds-color, 2%) !default;

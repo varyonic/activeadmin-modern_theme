@@ -7,7 +7,7 @@
   text-transform: uppercase;
 
   a, a:link, a:visited, a:active {
-    color: $breadcrumbs-color;
+    color: $breadcrumb-color;
     text-decoration: none;
   }
 
@@ -15,6 +15,6 @@
 
   .breadcrumb_sep {
     margin: 0 2px;
-    color: $breadcrumbs-separator-color;
+    color: $breadcrumb-separator-color;
   }
 }
